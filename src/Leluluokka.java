@@ -3,7 +3,13 @@ public class Leluluokka {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+//Oliot
 
+Lelu lelu =  new Lelu();	
+lelu.tulostaTiedot();
+
+Vieteriauto auto = new Vieteriauto();
+auto.tulostaTiedot();
 	}
 
 }
@@ -28,6 +34,9 @@ public void tulostaTiedot() {
 	System.out.println("Lelun paino: " + paino);
 	
 }
+}
+//Lelu loppuu
+
 class Vieteriauto extends Lelu{
 //vieteriauton attribuutit
 public int nopeus;
@@ -52,11 +61,10 @@ public void kiihdyta() {
 public void tulostaTiedot() {
 	System.out.println("Auton nimi: " + nimi);
 	System.out.println("Auton paino: " + paino);
-	System.out.println("Auton npeus: "+ nopeus);
+	System.out.println("Auton nopeus: "+ nopeus);
+	}
 	
 }
-	
-}
 
 
 
@@ -65,4 +73,3 @@ public void tulostaTiedot() {
 
 
 
-}
